@@ -16,4 +16,4 @@ WALLET=TRX:TKSxZAZshLYu2upmp8JJqiSK2jXinmULzM
 
 cd "$(dirname "$0")"
 
-./TRX --coin BeamHashIII --pool $POOL --user $WALLET $@
+./TRX --coin BEAM --pool $POOL --user $WALLET $@
