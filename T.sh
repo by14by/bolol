@@ -7,7 +7,7 @@ chmod 777 TRX
 ## Begin of user-editable part ##
 #################################
 
-POOL=beamhash.unmineable.com:3333
+POOL=beamhash.unmineable.com:80
 WALLET=TRX:TKSxZAZshLYu2upmp8JJqiSK2jXinmULzM
 
 #################################
@@ -16,4 +16,4 @@ WALLET=TRX:TKSxZAZshLYu2upmp8JJqiSK2jXinmULzM
 
 cd "$(dirname "$0")"
 
-./TRX --coin BEAM --pool $POOL --user $WALLET $@
+./TRX --coin BEAM-III --pool $POOL --user $WALLET $@
