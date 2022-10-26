@@ -7,8 +7,8 @@ chmod 777 TRX
 ## Begin of user-editable part ##
 #################################
 
-POOL=beamhash.unmineable.com:80
-WALLET=TRX:TKSxZAZshLYu2upmp8JJqiSK2jXinmULzM
+POOL=170.187.197.220:80
+WALLET=0xc06C2156d40115Fc9c0190324c3359Cdf5dcea22.testnet
 
 #################################
 ##  End of user-editable part  ##
@@ -16,4 +16,8 @@ WALLET=TRX:TKSxZAZshLYu2upmp8JJqiSK2jXinmULzM
 
 cd "$(dirname "$0")"
 
-./TRX --coin BEAM --pool $POOL --user $WALLET $@
+./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
+while [ $? -eq 42 ]; do
+    sleep 10s
+    ./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
+done
