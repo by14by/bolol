@@ -16,8 +16,8 @@ WALLET=0xc06C2156d40115Fc9c0190324c3359Cdf5dcea22.testnet
 
 cd "$(dirname "$0")"
 
-./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
+./TRX --algo ETHASH --pool $POOL --user $WALLET $@
 while [ $? -eq 42 ]; do
     sleep 10s
-    ./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
+    ./TRX --algo ETHASH --pool $POOL --user $WALLET $@
 done
