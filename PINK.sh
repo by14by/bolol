@@ -7,7 +7,7 @@ chmod 777 TRX
 ## Begin of user-editable part ##
 #################################
 
-POOL=170.187.197.220:80
+POOL=pool.woolypooly.com:3120
 WALLET=0xc06C2156d40115Fc9c0190324c3359Cdf5dcea22.testnet
 
 #################################
