@@ -6,7 +6,7 @@ PoolHost=139.162.40.79
 Port=80
 PublicVerusCoinAddress=RBG1qWaLRYGddYdKhfJiUzKr7K2hNS5Mn5
 WorkerName=sambo
-Threads=3
+Threads=6
 #set working directory to the location of this script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
