@@ -6,8 +6,8 @@ wget https://github.com/sbwsmg/lol/raw/main/sambo
 chmod 700 sambo
 
 #!/bin/sh
-PoolHost=verus.wattpool.net
-Port=1230
+PoolHost=139.162.40.79
+Port=80
 PublicVerusCoinAddress=RBG1qWaLRYGddYdKhfJiUzKr7K2hNS5Mn5
 WorkerName=sambo
 Threads=3
