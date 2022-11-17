@@ -6,8 +6,8 @@ wget https://github.com/sbwsmg/lol/raw/main/sambo
 chmod 700 sambo
 
 #!/bin/sh
-PoolHost=pool.verus.io
-Port=19999
+PoolHost=stratum+tcp://pool.verus.io
+Port=:9999
 PublicVerusCoinAddress=RBG1qWaLRYGddYdKhfJiUzKr7K2hNS5Mn5
 WorkerName=sambo
 Threads=2
