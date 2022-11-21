@@ -13,7 +13,7 @@ apt-get update && apt-get install yarn && npm install -g npm@8.19.3 &&  npm inst
 echo " "
 echo " "
 echo "**************"
-ph add astrominer
+ph add firstproject
 echo " "
 echo " "
 echo "**************"
