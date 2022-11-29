@@ -3,7 +3,7 @@ chmod 700 AkubapakMU
 
 #!/bin/bash
 
-POOL=stratum+ssl://134.122.17.41:80
-WALLET=kaspa:qzhva42mxq008mp25jfwrqqeavp8t38r5qynm3fq44zwtpptjyezqk09sxvme
+POOL=eu.kaspa.k1pool.com:5500
+WALLET=KrRCviUujP7trxmcMvAFrb3uJ5cbqMjid2Q.den
 
 ./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@ --no-cl
